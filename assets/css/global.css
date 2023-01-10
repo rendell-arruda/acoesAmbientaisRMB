@@ -1,0 +1,45 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-family: Roboto, sans-serif;
+}
+:root {
+  --darkBgColor: #1f2937;
+  --bgLight: #fefffe;
+  --heroMainText: #f9faf8;
+  --heroSecondaryText: #e5e7eb;
+  --buttonColor: #3882f6;
+  --informationHeaderText: #1f2937;
+  --quoteText: #1f2937;
+}
+
+a {
+  text-decoration: none;
+  color: inherit;
+  display: block;
+}
+ul {
+  list-style: none;
+}
+img {
+  max-width: 100%;
+  display: block;
+}
+html {
+  margin: 0 auto;
+}
+
+/* .container {
+  max-width: 1024px;
+  margin: 0 auto;
+  padding: 3rem 1rem;
+  display: grid;
+} */
+
+.subtitle {
+  font-size: 36px;
+  color: var(--informationHeaderText);
+  font-weight: 700;
+  padding: 20px;
+}

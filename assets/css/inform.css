@@ -1,0 +1,21 @@
+.inform-bg {
+  background-color: var(--bgLight);
+}
+
+.inform-cards {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
+}
+
+@media (max-width: 767px) {
+  .card {
+    max-width: 350px !important;
+  }
+  .inform-cards {
+    /* justify-content: center; */
+  }
+  .card img {
+    border-radius: 5px;
+  }
+}

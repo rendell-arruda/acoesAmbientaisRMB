@@ -1,0 +1,77 @@
+.intro-bg {
+  background-color: var(--darkBgColor);
+}
+
+.intro {
+  padding-top: 20px;
+  padding-bottom: 20px;
+  display: flex;
+  gap: 20px;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.intro-conteudo {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+.title {
+  font-size: 3rem;
+  color: var(--heroMainText);
+  font-weight: 700;
+}
+
+.secundaryText {
+  font-size: 1.125rem;
+  color: var(--heroSecondaryText);
+  font-weight: normal;
+  font-size: 1.125rem;
+}
+
+.btn {
+  display: inline-block;
+  padding: 10px 40px;
+  border-radius: 10px;
+  background-color: var(--buttonColor);
+  border: none;
+  color: var(--heroSecondaryText);
+  max-width: max-content;
+  border: none;
+  cursor: pointer;
+  font-size: 18px;
+  font-weight: bold;
+}
+
+.img-intro img {
+  border-radius: 5px;
+}
+
+@media (max-width: 991px) {
+  .title {
+    font-size: 2rem;
+  }
+  .secundaryText {
+    font-size: 1rem;
+  }
+}
+
+@media (max-width: 768px) {
+  .intro {
+    flex-wrap: wrap;
+    gap: 10px;
+    justify-content: center;
+  }
+  .intro-conteudo {
+    align-items: center;
+  }
+  .img-intro img {
+    width: 350px;
+  }
+  .title {
+    font-size: 1.5rem;
+  }
+  .secundaryText {
+    font-size: 0.75rem;
+  }
+}

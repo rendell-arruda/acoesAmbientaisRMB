@@ -1,0 +1,7 @@
+header {
+  background-color: var(--darkBgColor);
+  color: var(--heroSecondaryText);
+}
+
+@media (max-width: 500px) {
+}
