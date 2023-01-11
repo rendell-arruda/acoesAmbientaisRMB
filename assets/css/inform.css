@@ -1,6 +1,9 @@
 .inform-bg {
   background-color: var(--bgLight);
 }
+.inform {
+  padding: 20px 0;
+}
 
 .inform-cards {
   display: flex;

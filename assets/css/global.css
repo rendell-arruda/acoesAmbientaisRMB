@@ -11,6 +11,7 @@
   --informationHeaderText: #1f2937;
   --quoteText: #1f2937;
   --greenPrimary: #29371f;
+  --footer-bg: #212529;
 }
 
 a {
@@ -38,7 +39,7 @@ html {
   font-size: 36px;
   color: var(--informationHeaderText);
   font-weight: 700;
-  padding: 20px;
+  margin-bottom: 1rem;
 }
 .secundaryText {
   font-size: 1.125rem;
@@ -64,6 +65,7 @@ html {
   }
   .subtitle {
     font-size: 1.125rem;
+    margin-bottom: 0.75rem;
   }
   .secundaryText {
     font-size: 0.75rem;
