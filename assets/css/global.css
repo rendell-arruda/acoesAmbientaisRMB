@@ -57,3 +57,15 @@ html {
 .bg-especie {
   background-color: var(--darkBgColor);
 }
+
+@media (max-width: 768px) {
+  .title {
+    font-size: 1.5rem;
+  }
+  .subtitle {
+    font-size: 1.125rem;
+  }
+  .secundaryText {
+    font-size: 0.75rem;
+  }
+}
