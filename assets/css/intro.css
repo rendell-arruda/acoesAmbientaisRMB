@@ -14,19 +14,6 @@
 .intro-conteudo {
   display: flex;
   flex-direction: column;
-  gap: 10px;
-}
-.title {
-  font-size: 3rem;
-  color: var(--heroMainText);
-  font-weight: 700;
-}
-
-.secundaryText {
-  font-size: 1.125rem;
-  color: var(--heroSecondaryText);
-  font-weight: normal;
-  font-size: 1.125rem;
 }
 
 .btn {

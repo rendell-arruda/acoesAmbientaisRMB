@@ -1,6 +1,4 @@
 * {
-  padding: 0;
-  margin: 0;
   box-sizing: border-box;
   font-family: Roboto, sans-serif;
 }
@@ -12,6 +10,7 @@
   --buttonColor: #3882f6;
   --informationHeaderText: #1f2937;
   --quoteText: #1f2937;
+  --greenPrimary: #29371f;
 }
 
 a {
@@ -19,9 +18,7 @@ a {
   color: inherit;
   display: block;
 }
-ul {
-  list-style: none;
-}
+
 img {
   max-width: 100%;
   display: block;
@@ -30,16 +27,33 @@ html {
   margin: 0 auto;
 }
 
-/* .container {
-  max-width: 1024px;
-  margin: 0 auto;
-  padding: 3rem 1rem;
-  display: grid;
-} */
-
+.title {
+  padding: 10px 0;
+  font-size: 3rem;
+  color: var(--heroMainText);
+  font-weight: 700;
+  text-align: center;
+}
 .subtitle {
   font-size: 36px;
   color: var(--informationHeaderText);
   font-weight: 700;
   padding: 20px;
+}
+.secundaryText {
+  font-size: 1.125rem;
+  color: var(--heroSecondaryText);
+  font-weight: normal;
+  font-size: 1.125rem;
+}
+.especieText {
+  font-style: italic;
+  font-size: 2.125rem;
+  color: var(--heroSecondaryText);
+  font-weight: normal;
+  font-size: 1.125rem;
+  text-align: center;
+}
+.bg-especie {
+  background-color: var(--darkBgColor);
 }

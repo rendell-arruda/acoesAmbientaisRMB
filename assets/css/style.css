@@ -1,7 +1,9 @@
+@import './reset.css';
 @import './global.css';
 @import './header.css';
 @import './intro.css';
 @import './inform.css';
+@import './especie.css';
 @import './blockquote.css';
 @import './linksimportantes.css';
 @import './footer.css';
