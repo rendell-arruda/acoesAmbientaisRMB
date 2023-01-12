@@ -1,23 +1,46 @@
+.bg-especie {
+  background-color: var(--darkBgColor);
+}
 .especie {
   padding: 20px 0;
-  /* display: flex;
-  justify-content: space-between;
-  align-items: center; */
 }
 
 .especie-conteudo {
   display: flex;
-  /* flex-direction: column; */
   align-items: center;
-  justify-content: space-between;
+  justify-content: space-around;
 }
+.conteudoTextual {
+}
+
 .img-especie {
   max-width: 350px;
   border-radius: 5px;
+}
+.caractIniciais {
+  background-color: var(--bgLight);
+  border-radius: 5px;
+  box-shadow: rgba(0, 0, 0, 0.15) 1.95px 1.95px 2.6px;
+  display: inline-block;
+}
+.caractIniciais-list {
+  padding: 12px 20px;
+  margin: 0;
+}
+.list-item {
+  display: flex;
+  gap: 10px;
+  align-items: center;
 }
 
 @media (max-width: 768px) {
   .especie-conteudo {
     flex-direction: column;
+    justify-content: center;
+  }
+  .conteudoTextual {
+    text-align: center;
+  }
+  .img-especie {
   }
 }
