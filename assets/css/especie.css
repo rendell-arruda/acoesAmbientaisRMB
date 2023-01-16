@@ -42,6 +42,9 @@
 .subtitle-especie {
   color: var(--darkBgColor);
 }
+.acordion-especie {
+  padding-bottom: 20px;
+}
 
 @media (max-width: 768px) {
   .especie-conteudo,
