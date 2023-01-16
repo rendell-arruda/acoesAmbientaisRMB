@@ -4,7 +4,13 @@
 .especie {
   padding: 20px 0;
 }
-
+.slider-especie {
+  max-width: 400px;
+}
+.bg-caption {
+  background-color: rgba(0, 0, 0, 0.479);
+  border-radius: 5px;
+}
 .especie-conteudo {
   display: flex;
   align-items: center;
@@ -33,9 +39,13 @@
   gap: 10px;
   align-items: center;
 }
+.subtitle-especie {
+  color: var(--darkBgColor);
+}
 
 @media (max-width: 768px) {
-  .especie-conteudo {
+  .especie-conteudo,
+  .caract-gerais-conteudo {
     flex-direction: column;
     justify-content: center;
   }

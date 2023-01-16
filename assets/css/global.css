@@ -39,7 +39,7 @@ html {
   font-size: 36px;
   color: var(--informationHeaderText);
   font-weight: 700;
-  margin-bottom: 1rem;
+  padding: 20px 0;
 }
 .secundaryText {
   font-size: 1.125rem;
