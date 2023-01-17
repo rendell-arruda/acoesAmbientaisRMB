@@ -39,7 +39,7 @@ html {
   font-size: 36px;
   color: var(--informationHeaderText);
   font-weight: 700;
-  padding: 20px 0;
+  padding-top: 20px;
 }
 .secundaryText {
   font-size: 1.125rem;
@@ -52,6 +52,11 @@ html {
   color: var(--heroSecondaryText);
   font-weight: normal;
   font-size: 1.125rem;
+}
+.card-cover-link {
+  color: inherit;
+  text-decoration: none;
+  box-sizing: border-box;
 }
 
 @media (max-width: 768px) {

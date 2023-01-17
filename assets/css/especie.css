@@ -38,6 +38,7 @@
   display: flex;
   gap: 10px;
   align-items: center;
+  text-decoration: none;
 }
 .subtitle-especie {
   color: var(--darkBgColor);
