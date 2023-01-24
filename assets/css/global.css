@@ -61,11 +61,11 @@ html {
 
 @media (max-width: 768px) {
   .title {
-    font-size: 18px;
+    font-size: 1.125rem;
     text-align: center;
   }
   .subtitle {
-    font-size: 1rem;
+    font-size: 18px;
     margin-bottom: 0.75rem;
   }
   .secundaryText {
