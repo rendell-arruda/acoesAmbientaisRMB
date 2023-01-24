@@ -1,5 +1,7 @@
 .intro-bg {
   background-color: var(--darkBgColor);
+  background-image: url('https://media.istockphoto.com/id/1214287487/photo/beautiful-young-tomato-sprout-close-up.jpg?s=170667a&w=0&k=20&c=KqzNy8B5lTCAMA7rrpkVCHn8VzQevrYVrbM-Bd7DwoA=');
+  background-size: cover;
 }
 
 .intro {
@@ -53,6 +55,7 @@
     align-items: center;
   }
   .img-intro img {
+    /* display: none; */
     width: 350px;
   }
 }
