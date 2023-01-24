@@ -1,7 +1,9 @@
 .inform-bg {
   background-color: var(--bgLight);
 }
-
+.card {
+  background-size: cover;
+}
 .inform-cards {
   display: flex;
   flex-wrap: wrap;
@@ -9,11 +11,10 @@
 }
 
 @media (max-width: 767px) {
-  .card {
-    max-width: 350px !important;
-  }
+  /* .card {
+    background-size: cover;
+  } */
   .inform-cards {
-    /* justify-content: center; */
   }
   .card img {
     border-radius: 5px;
