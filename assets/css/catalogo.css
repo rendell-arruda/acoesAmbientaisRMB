@@ -1,0 +1,11 @@
+.catalogo {
+  padding-bottom: 10px;
+}
+.catalogo-subtitle {
+  color: var(--informationHeaderText);
+}
+
+.maisEspeciesLink {
+  text-align: end;
+  /* display: inline-block; */
+}
