@@ -1,10 +1,6 @@
-.footer-bg {
-  background-color: var(--footer-bg);
-}
-
 .footer-p {
   padding: 20px 0;
   margin: 0 auto;
-  color: var(--heroSecondaryText);
+  color: var(--greenTextlight);
   font-size: 0.875rem;
 }

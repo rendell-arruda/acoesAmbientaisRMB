@@ -3,15 +3,12 @@
   font-family: Roboto, sans-serif;
 }
 :root {
-  --darkBgColor: #1f2937;
-  --bgLight: #fefffe;
-  --heroMainText: #f9faf8;
-  --heroSecondaryText: #e5e7eb;
-  --buttonColor: #3882f6;
-  --informationHeaderText: #1f2937;
-  --quoteText: #1f2937;
-  --greenPrimary: #29371f;
-  --footer-bg: #212529;
+  --greenTextlight: #fdfff5;
+  --greenBg: #2a3b2c;
+  --greenText: #0a3010;
+  --greenBtn: #b0c745;
+  /* --greenBtn: #8cc73f; */
+  --grayBg: #d3d7da;
 }
 
 a {

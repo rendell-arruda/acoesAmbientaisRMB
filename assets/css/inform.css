@@ -11,11 +11,6 @@
 }
 
 @media (max-width: 767px) {
-  /* .card {
-    background-size: cover;
-  } */
-  .inform-cards {
-  }
   .card img {
     border-radius: 5px;
   }
