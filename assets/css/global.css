@@ -2,17 +2,10 @@
   box-sizing: border-box;
   font-family: Roboto, sans-serif;
 }
-/* :root {
-  --greenTextlight: #fdfff5;
-  --greenBg: #2a3b2c;
-  --greenText: #0a3010;
-  --greenBtn: #b0c745;
-  --greenCard: #def9fa;
-  --grayBg: #d3d7da;
-} */
 
 :root {
-  --greenTextlight: #fdfff5;
+  --grayBglight: #f7f6fa;
+  --grayTextlight: #fdfff5;
   --greenBg: #13282b;
   --greenText: #050b0c;
   --greenBtn: #b0c745;
@@ -37,7 +30,7 @@ html {
 .title {
   padding: 10px 0;
   font-size: 2.5rem;
-
+  color: var(--greenText);
   font-weight: 700;
   margin-bottom: 0;
 }
@@ -45,6 +38,7 @@ html {
   font-size: 1.875rem;
   font-weight: 700;
   padding-top: 20px;
+  color: var(--greenText);
 }
 .secundaryText {
   font-size: 1.125rem;
