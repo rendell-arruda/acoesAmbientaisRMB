@@ -2,12 +2,21 @@
   box-sizing: border-box;
   font-family: Roboto, sans-serif;
 }
-:root {
+/* :root {
   --greenTextlight: #fdfff5;
   --greenBg: #2a3b2c;
   --greenText: #0a3010;
   --greenBtn: #b0c745;
-  /* --greenBtn: #8cc73f; */
+  --greenCard: #def9fa;
+  --grayBg: #d3d7da;
+} */
+
+:root {
+  --greenTextlight: #fdfff5;
+  --greenBg: #13282b;
+  --greenText: #050b0c;
+  --greenBtn: #b0c745;
+  --greenCard: #def9fa;
   --grayBg: #d3d7da;
 }
 
