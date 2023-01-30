@@ -1,24 +1,23 @@
-.intro-bg {
-  background-color: var(--darkBgColor);
-  background-image: url('https://media.istockphoto.com/id/1214287487/photo/beautiful-young-tomato-sprout-close-up.jpg?s=170667a&w=0&k=20&c=KqzNy8B5lTCAMA7rrpkVCHn8VzQevrYVrbM-Bd7DwoA=');
+.introBlog {
+  background-image: url('../img/bannerPeroba.png');
   background-size: cover;
+  background-position: top;
+  background-repeat: no-repeat;
 }
 
-.intro {
+/* .intro {
   padding-top: 20px;
   padding-bottom: 20px;
   display: flex;
   gap: 20px;
   justify-content: space-between;
   align-items: center;
-}
+} */
 
 .intro-conteudo {
-  display: flex;
-  flex-direction: column;
 }
 
-.btn {
+/* .btn {
   display: inline-block;
   padding: 10px 40px;
   border-radius: 10px;
@@ -30,9 +29,9 @@
   cursor: pointer;
   font-size: 18px;
   font-weight: bold;
-}
+} */
 
-.img-intro img {
+.img-intro {
   border-radius: 5px;
 }
 
@@ -46,16 +45,19 @@
 }
 
 @media (max-width: 768px) {
-  .intro {
+  /* .intro {
     flex-wrap: wrap;
     gap: 10px;
     justify-content: center;
-  }
+  } */
   .intro-conteudo {
-    align-items: center;
+    text-align: center;
+
+    flex-direction: column;
+    gap: 20px;
   }
-  .img-intro img {
-    /* display: none; */
+  /* .img-intro img {
+    /* display: none; 
     width: 350px;
-  }
+  } */
 }
