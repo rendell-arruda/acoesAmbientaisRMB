@@ -1,63 +1,27 @@
 .introBlog {
-  background-image: url('../img/bannerPeroba.png');
+  background-image: url('../img/banner-peroba2-1.psd.png');
   background-size: cover;
-  background-position: top;
+  background-position: unset;
   background-repeat: no-repeat;
+  min-height: 400px;
 }
-
-/* .intro {
-  padding-top: 20px;
-  padding-bottom: 20px;
-  display: flex;
-  gap: 20px;
-  justify-content: space-between;
-  align-items: center;
-} */
-
-.intro-conteudo {
-}
-
-/* .btn {
-  display: inline-block;
-  padding: 10px 40px;
-  border-radius: 10px;
-  background-color: var(--buttonColor);
-  border: none;
-  color: var(--heroSecondaryText);
-  max-width: max-content;
-  border: none;
-  cursor: pointer;
-  font-size: 18px;
-  font-weight: bold;
-} */
 
 .img-intro {
-  border-radius: 5px;
-}
-
-@media (max-width: 991px) {
-  .title {
-    font-size: 2rem;
-  }
-  .secundaryText {
-    font-size: 1rem;
-  }
+  display: none;
 }
 
 @media (max-width: 768px) {
-  /* .intro {
-    flex-wrap: wrap;
-    gap: 10px;
-    justify-content: center;
-  } */
+  .img-intro {
+    border-radius: 10px;
+    display: block;
+  }
   .intro-conteudo {
     text-align: center;
-
     flex-direction: column;
     gap: 20px;
   }
-  /* .img-intro img {
-    /* display: none; 
-    width: 350px;
-  } */
+  .introBlog {
+    background: none;
+    background-color: var(--grayBglight);
+  }
 }
