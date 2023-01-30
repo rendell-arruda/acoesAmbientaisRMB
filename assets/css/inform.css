@@ -1,5 +1,4 @@
 .inform-bg {
-  background-color: var(--bgLight);
 }
 .card {
   background-size: cover;
@@ -7,7 +6,7 @@
 .inform-cards {
   display: flex;
   flex-wrap: wrap;
-  gap: 20px;
+  gap: 6px;
 }
 
 @media (max-width: 767px) {
