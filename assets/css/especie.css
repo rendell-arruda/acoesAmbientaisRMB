@@ -16,8 +16,6 @@
   align-items: center;
   justify-content: space-around;
 }
-.conteudoTextual {
-}
 
 .img-especie {
   max-width: 350px;
@@ -25,10 +23,11 @@
   box-shadow: rgba(0, 0, 0, 0.15) 1.95px 1.95px 2.6px;
 }
 .caractIniciais {
-  background-color: var(--bgLight);
+  background-color: var(--greenBtn);
   border-radius: 5px;
   box-shadow: rgba(0, 0, 0, 0.15) 1.95px 1.95px 2.6px;
   display: inline-block;
+  color: var(----greenText);
 }
 .caractIniciais-list {
   padding: 12px 20px;
@@ -56,8 +55,7 @@
   .conteudoTextual {
     text-align: center;
   }
-  .img-especie {
-  }
+
   .caracteristica {
     font-size: 14px;
   }

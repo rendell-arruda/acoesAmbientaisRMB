@@ -28,7 +28,7 @@ html {
 .title {
   padding: 10px 0;
   font-size: 2.5rem;
-  color: var(--heroMainText);
+
   font-weight: 700;
   margin-bottom: 0;
 }
@@ -39,14 +39,12 @@ html {
 }
 .secundaryText {
   font-size: 1.125rem;
-  color: var(--heroSecondaryText);
   font-weight: normal;
   font-size: 16px;
 }
 .especieText {
   font-style: italic;
-  color: var(--heroSecondaryText);
-  font-weight: normal;
+  font-weight: bold;
   font-size: 1.125rem;
 }
 .card-cover-link {
