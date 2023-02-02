@@ -1,0 +1,8 @@
+.contato-bg {
+  background-color: var(--grayBglight);
+}
+@media (max-width: 500px) {
+  .contato {
+    flex-direction: column;
+  }
+}

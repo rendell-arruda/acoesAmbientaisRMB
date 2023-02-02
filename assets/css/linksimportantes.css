@@ -1,9 +1,12 @@
 .container-slider {
   padding: 20px 0;
-  margin: 0 auto;
-  max-width: 540px;
+  /* margin: 0 auto; */
+  max-width: 600px;
 }
 @media (max-width: 500px) {
+  .linksImportantes {
+    flex-direction: column;
+  }
   .blockquote p {
     font-size: 14px;
   }
