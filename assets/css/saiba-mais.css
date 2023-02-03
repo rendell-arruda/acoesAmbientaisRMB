@@ -1,9 +1,41 @@
-.container-slider {
+.saiba_mais-bg {
+  background-color: var(--grayBglight);
   padding-bottom: 20px;
+}
+.container-slider {
   max-width: 650px;
 }
+
+.depoimento-conteudo {
+  padding: 15px;
+  /* max-width: 32ch; */
+  font-family: 'Merriweather', serif;
+  font-style: italic;
+  font-weight: normal;
+  margin-bottom: 1.125rem;
+  position: relative;
+}
+
+.depoimento::before,
+.depoimento::after {
+  font-size: 5rem;
+  color: rgb(193, 184, 184);
+  position: absolute;
+}
+
+.depoimento::before {
+  content: '“';
+  left: -15px;
+  top: -40px;
+}
+
+.depoimento::after {
+  content: '”';
+}
+
 @media (max-width: 500px) {
-  .linksImportantes {
+  .linksImportantes,
+  .saiba-mais {
     flex-direction: column;
   }
   .blockquote p {
