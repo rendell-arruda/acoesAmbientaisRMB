@@ -66,6 +66,7 @@
                     role="button"
                     data-bs-toggle="dropdown"
                     aria-expanded="false"
+                    id="viveiros"
                   >
                     Viveiros
                   </a>
@@ -231,30 +232,9 @@
         </a>
       </section>
 
-      <section class="blockquote-bg">
-        <div class="blockquote-conteudo">
-          <div class="card-body container">
-            <blockquote class="blockquote mb-0">
-              <p>
-                "Nossa função é transformar ciência em tecnologia, desenvolver
-                protótipos e instalações pilotos [...] e nós temos que manter
-                essa competência”..
-              </p>
-              <footer class="blockquote-footer">
-                <p>
-                  José Augusto Perrota - Coord. Técnico do RMB
-                  <cite title="Source Title">- Set/2020</cite>
-                </p>
-              </footer>
-            </blockquote>
-          </div>
-        </div>
-      </section>
-
-      <section class="linksImportantes-bg" id="saiba-mais">
-        <div
-          class="linksImportantes container-xl d-flex justify-content-between align-items-center p-md-2 text-center"
-        >
+      <section class="saiba_mais-bg container" id="saiba-mais">
+        <h4 class="subtitle">Saiba Mais</h4>
+        <div class="saiba-mais d-flex justify-content-center">
           <div class="container-slider">
             <div
               id="carouselExampleInterval"
@@ -263,7 +243,7 @@
             >
               <div class="carousel-inner">
                 <a href="https://www.gov.br/cnen/pt-br/rmb" target="_blanck">
-                  <div class="carousel-item active" data-bs-interval="10000">
+                  <div class="carousel-item active" data-bs-interval="7000">
                     <img
                       src="./assets/img/O-RMB.png"
                       class="d-block w-100"
@@ -275,7 +255,7 @@
                   href="https://www.youtube.com/watch?v=0fAJ6R4BFp8"
                   target="_blank"
                 >
-                  <div class="carousel-item" data-bs-interval="2000">
+                  <div class="carousel-item" data-bs-interval="7000">
                     <img
                       src="./assets/img/O-RMB2.png"
                       class="d-block w-100"
@@ -286,7 +266,7 @@
                 <a
                   href="https://www.google.com/maps/place/RMB+-+Bosque+dos+Pioneiros/@-23.3881028,-47.6179412,155m/data=!3m1!1e3!4m5!3m4!1s0x0:0x862df6ca25dd3926!8m2!3d-23.3879129!4d-47.6179379"
                 >
-                  <div class="carousel-item">
+                  <div class="carousel-item" data-bs-interval="7000">
                     <img
                       src="./assets/img/O-RMB3.png"
                       class="d-block w-100"
@@ -321,58 +301,140 @@
               </button>
             </div>
           </div>
-          <div class="gridLinks">
-            <p>Links links Importantes</p>
-            <ul class="d-flex align-items-center justify-content-between">
-              <li>
-                <a href="https://www.gov.br/cnen/pt-br/rmb"
-                  ><img src="./assets/img/rmbLogo.png" alt=""
-                /></a>
-              </li>
-              <li>
-                <a href="https://www.amazul.mar.mil.br/rmb_atuacao_projetos"
-                  ><img
-                    src="https://www.amazul.mar.mil.br/sites/www.marinha.mil.br.amazul/files/logo.png"
-                    alt="Logo Amazul"
-                /></a>
-              </li>
-            </ul>
-          </div>
         </div>
       </section>
-
-      <section class="contato-bg">
-        <div
-          class="contato container-xl d-flex align-items-center justify-content-between"
-        >
-          <div class="contato-info">
-            <p>Reator Multi</p>
-            <p>Endereço rua tal ta</p>
-            <p>Telefone 15 9999</p>
-          </div>
-          <div class="parceiros p-2 text-center">
-            <div>
-              <h5>Este repositório é uma iniciativa:</h5>
-              <span>Amazônia Azul Tecnologias de Defesa S.A.</span>
-              <p>Gerência de Implantação</p>
-              <div
-                class="imgs d-flex align-items-center justify-content-center"
-              >
-                <img
-                  src="./assets/img/logo5S.png"
-                  class="img-fluid"
-                  alt=""
-                  width="160"
-                />
-              </div>
-            </div>
+      <section class="blockquote-bg">
+        <div class="blockquote-conteudo">
+          <div class="card-body container">
+            <blockquote class="blockquote mb-0">
+              <p>
+                "Nossa função é transformar ciência em tecnologia, desenvolver
+                protótipos e instalações pilotos [...] e nós temos que manter
+                essa competência”..
+              </p>
+              <footer class="blockquote-footer">
+                <p>
+                  José Augusto Perrota - Coord. Técnico do RMB
+                  <cite title="Source Title">- Set/2020</cite>
+                </p>
+              </footer>
+            </blockquote>
           </div>
         </div>
       </section>
     </main>
-    <footer class="footer-bg" style="background-color: var(--greenBg)">
+    <footer
+      class="footer-bg footer py-3"
+      style="background-color: var(--greenBg)"
+    >
+      <div class="container">
+        <h4 class="subtitle">Links Importantes</h4>
+        <footer
+          class="row row-cols-1 row-cols-sm-2 row-cols-md-5 py-5 border-top"
+        >
+          <!-- <div class="col mb-3"></div> -->
+
+          <div class="col mb-3">
+            <h5>Mapa do Site</h5>
+            <ul class="nav flex-column">
+              <li class="nav-item mb-2">
+                <a href="#" class="nav-link p-0 text-muted">Home</a>
+              </li>
+              <li class="nav-item mb-2">
+                <a href="./catalogo.html" class="nav-link p-0 text-muted"
+                  >Catálogo</a
+                >
+              </li>
+              <li class="nav-item mb-2">
+                <a href="#saiba-mais" class="nav-link p-0 text-muted"
+                  >Saiba mais</a
+                >
+              </li>
+              <li class="nav-item mb-2">
+                <a href="#viveiros" class="nav-link p-0 text-muted">Viveiros</a>
+              </li>
+              <!-- <li class="nav-item mb-2">
+                <a href="#" class="nav-link p-0 text-muted">About</a>
+              </li> -->
+            </ul>
+          </div>
+
+          <div class="col mb-3">
+            <h5>Parceiros</h5>
+            <ul class="nav flex-column">
+              <li class="nav-item mb-2">
+                <a
+                  href="https://www.gov.br/cnen/pt-br"
+                  target="_blank"
+                  class="nav-link p-0 text-muted"
+                  >CNEN</a
+                >
+              </li>
+              <li class="nav-item mb-2">
+                <a
+                  href="https://www.marinha.mil.br/ctmsp/"
+                  target="_blank"
+                  class="nav-link p-0 text-muted"
+                  >CTMSP</a
+                >
+              </li>
+              <li class="nav-item mb-2">
+                <a
+                  target="_blank"
+                  href="https://ipero.sp.gov.br/"
+                  class="nav-link p-0 text-muted"
+                  >Prefeitura de Iperó</a
+                >
+              </li>
+              <li class="nav-item mb-2">
+                <a
+                  href="https://www.icmbio.gov.br/flonaipanema/"
+                  target="_blank"
+                  class="nav-link p-0 text-muted"
+                  >ICMBio</a
+                >
+              </li>
+              <!-- <li class="nav-item mb-2">
+                <a href="#" class="nav-link p-0 text-muted">FAQs</a>
+              </li>
+              <li class="nav-item mb-2">
+                <a href="#" class="nav-link p-0 text-muted">About</a>
+              </li> -->
+            </ul>
+          </div>
+          <div class="col mb-3"></div>
+          <div class="col mb-3"></div>
+          <div
+            class="col mb-3 d-flex flex-column align-items-center justify-content-between text-center"
+          >
+            <div class="d-flex">
+              <a
+                href="https://www.amazul.mar.mil.br/rmb_atuacao_projetos"
+                target="_blank"
+                class="d-flex align-items-center justify-content-center link-dark text-decoration-none"
+                ><img
+                  src="https://www.amazul.mar.mil.br/sites/www.marinha.mil.br.amazul/files/logo.png"
+                  alt="Logo GI"
+                  width="90"
+                />
+              </a>
+              <a
+                href="https://www.amazul.mar.mil.br/"
+                target="_blank"
+                class="d-flex align-items-center justify-content-center link-dark text-decoration-none"
+                ><img src="../assets/img/logo5S.png" alt="Logo GI" width="90" />
+              </a>
+            </div>
+
+            <p class="text-muted m-1">
+              Este repositório é uma iniciativa da Gerência de Implantação da
+              Amazul no RMB.
+            </p>
+          </div>
+        </footer>
+      </div>
       <div class="container-fluid">
-        <p class="footer-p">
+        <p class="footer-p text-muted">
           Copyright © 2022 RLC Arruda - Gerência de Implantação Amazul - Todos
           os direitos reservados
         </p>

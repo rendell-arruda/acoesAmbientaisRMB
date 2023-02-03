@@ -1,6 +1,7 @@
-.footer-p {
-  padding: 20px 0;
-  margin: 0 auto;
+.footer {
   color: var(--grayTextlight);
-  font-size: 0.875rem;
+  font-size: 14px;
+}
+.footer-p {
+  font-size: 12px;
 }
