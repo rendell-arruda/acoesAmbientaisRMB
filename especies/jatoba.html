@@ -1,0 +1,574 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="../assets/css/style.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,400;0,700;1,100&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-rbsA2VBKQhggwzxH7pPCaAqO46MgnOM80zW1RWuH61DGLwZJEdK2Kadq2F9CUG65"
+      crossorigin="anonymous"
+    />
+    <link
+      rel="shortcut icon"
+      href="../assets/img/faviconRMB.png"
+      type="image/x-icon"
+    />
+    <title>Jatobá | RMB</title>
+  </head>
+  <body>
+    <header class="header">
+      <div class="menu-container">
+        <nav
+          class="navbar navbar-expand-lg navbar-dark"
+          style="background-color: var(--greenBg)"
+        >
+          <div class="container-fluid">
+            <a class="navbar-brand" href="../index.html"
+              ><img src="../assets/img/faviconRMB.png" alt=""
+            /></a>
+            <button
+              class="navbar-toggler"
+              type="button"
+              data-bs-toggle="collapse"
+              data-bs-target="#navbarNavDropdown"
+              aria-controls="navbarNavDropdown"
+              aria-expanded="false"
+              aria-label="Toggle navigation"
+            >
+              <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNavDropdown">
+              <ul class="navbar-nav">
+                <li class="nav-item">
+                  <a
+                    class="nav-link active"
+                    aria-current="page"
+                    href="../index.html"
+                    >Home</a
+                  >
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="../catalogo.html">Catálogo</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="#links-importantes"
+                    >Links Importantes</a
+                  >
+                </li>
+
+                <li class="nav-item dropdown">
+                  <a
+                    class="nav-link dropdown-toggle"
+                    href="#"
+                    role="button"
+                    data-bs-toggle="dropdown"
+                    aria-expanded="false"
+                  >
+                    Viveiros
+                  </a>
+                  <ul class="dropdown-menu">
+                    <li>
+                      <a
+                        class="dropdown-item"
+                        href="https://drive.google.com/file/d/1irjRqrJmyrBm6qNMXhOOkfTBrJt-ohsZ/view?usp=sharing"
+                        target="_blanck"
+                        >Sementeira - Casa P4</a
+                      >
+                    </li>
+                    <li>
+                      <a
+                        class="dropdown-item"
+                        href="https://drive.google.com/file/d/1EOQozKbjeocNsIi3K3YNf4Z0fnuzQhts/view?usp=sharing"
+                        target="_blanck"
+                        >Rustificação - Casa P6</a
+                      >
+                    </li>
+                  </ul>
+                </li>
+              </ul>
+            </div>
+          </div>
+        </nav>
+      </div>
+    </header>
+    <main>
+      <section class="bg-especie">
+        <div class="especie container-xl">
+          <div class="especie-conteudo">
+            <div class="slider-especie">
+              <div id="carouselExampleCaptions" class="carousel slide">
+                <div class="carousel-indicators">
+                  <button
+                    type="button"
+                    data-bs-target="#carouselExampleCaptions"
+                    data-bs-slide-to="0"
+                    class="active"
+                    aria-current="true"
+                    aria-label="Slide 1"
+                  ></button>
+                  <button
+                    type="button"
+                    data-bs-target="#carouselExampleCaptions"
+                    data-bs-slide-to="1"
+                    aria-label="Slide 2"
+                  ></button>
+                  <button
+                    type="button"
+                    data-bs-target="#carouselExampleCaptions"
+                    data-bs-slide-to="2"
+                    aria-label="Slide 3"
+                  ></button>
+                  <button
+                    type="button"
+                    data-bs-target="#carouselExampleCaptions"
+                    data-bs-slide-to="3"
+                    aria-label="Slide 4"
+                  ></button>
+                </div>
+                <div class="carousel-inner">
+                  <div class="carousel-item active semente">
+                    <img
+                      src="../assets/img/especies/jatoba/jatobaSemente.JPG"
+                      class="d-block w-100"
+                      alt="..."
+                    />
+                    <div class="carousel-caption d-none d-md-block bg-caption">
+                      <h5>Sementes de Jatobá</h5>
+                      <p>Podem ter cerca de 2 cm.</p>
+                    </div>
+                  </div>
+                  <div class="carousel-item flor">
+                    <img
+                      src="../assets/img/especies/acoita/acoitaflor.jpg"
+                      class="d-block w-100"
+                      alt="Flor do jatoba"
+                    />
+                    <div class="carousel-caption d-none d-md-block bg-caption">
+                      <h5>Flor do Jatobá</h5>
+                      <p>Floresce no Periodo de XXXX.</p>
+                    </div>
+                  </div>
+                  <div class="carousel-item muda">
+                    <img
+                      src="../assets/img/especies/acoita/acoitaMuda.jpg"
+                      class="d-block w-100"
+                      alt="..."
+                    />
+                    <div class="carousel-caption d-none d-md-block bg-caption">
+                      <h5>Mudas de Açoita Cavalo</h5>
+                      <p>Atinge Porte médio adequado em 6 meses .</p>
+                    </div>
+                  </div>
+                  <div class="carousel-item arvore">
+                    <img
+                      src="../assets/img/especies/acoita/acoitaArvore.jpg"
+                      class="d-block w-100"
+                      alt="Árvore de Açoita Cavalo"
+                    />
+                    <div class="carousel-caption d-none d-md-block bg-caption">
+                      <h5>Árvores de Açoita Cavalo</h5>
+                      <p>Podem ter cerca de 30 m.</p>
+                    </div>
+                  </div>
+                </div>
+                <button
+                  class="carousel-control-prev"
+                  type="button"
+                  data-bs-target="#carouselExampleCaptions"
+                  data-bs-slide="prev"
+                >
+                  <span
+                    class="carousel-control-prev-icon"
+                    aria-hidden="true"
+                  ></span>
+                  <span class="visually-hidden">Previous</span>
+                </button>
+                <button
+                  class="carousel-control-next"
+                  type="button"
+                  data-bs-target="#carouselExampleCaptions"
+                  data-bs-slide="next"
+                >
+                  <span
+                    class="carousel-control-next-icon"
+                    aria-hidden="true"
+                  ></span>
+                  <span class="visually-hidden">Next</span>
+                </button>
+              </div>
+            </div>
+            <div class="conteudoTextual">
+              <div>
+                <h3 class="title">Jatobá</h3>
+                <p class="especieText">LOREM LOREM.</p>
+              </div>
+              <div class="caractIniciais">
+                <ul class="caractIniciais-list">
+                  <div class="list-item">
+                    <svg
+                      xmlns="http://www.w3.org/2000/svg"
+                      width="16"
+                      height="16"
+                      fill="currentColor"
+                      class="bi bi-globe-americas"
+                      viewBox="0 0 16 16"
+                    >
+                      <path
+                        d="M8 0a8 8 0 1 0 0 16A8 8 0 0 0 8 0ZM2.04 4.326c.325 1.329 2.532 2.54 3.717 3.19.48.263.793.434.743.484-.08.08-.162.158-.242.234-.416.396-.787.749-.758 1.266.035.634.618.824 1.214 1.017.577.188 1.168.38 1.286.983.082.417-.075.988-.22 1.52-.215.782-.406 1.48.22 1.48 1.5-.5 3.798-3.186 4-5 .138-1.243-2-2-3.5-2.5-.478-.16-.755.081-.99.284-.172.15-.322.279-.51.216-.445-.148-2.5-2-1.5-2.5.78-.39.952-.171 1.227.182.078.099.163.208.273.318.609.304.662-.132.723-.633.039-.322.081-.671.277-.867.434-.434 1.265-.791 2.028-1.12.712-.306 1.365-.587 1.579-.88A7 7 0 1 1 2.04 4.327Z"
+                      />
+                    </svg>
+                    <li class="caracteristica">
+                      <b>Bioma:</b> Cerrado, Mata Atlântica e Pampa
+                    </li>
+                  </div>
+                  <div class="list-item">
+                    <svg
+                      xmlns="http://www.w3.org/2000/svg"
+                      width="16"
+                      height="16"
+                      fill="currentColor"
+                      class="bi bi-2-circle"
+                      viewBox="0 0 16 16"
+                    >
+                      <path
+                        d="M1 8a7 7 0 1 0 14 0A7 7 0 0 0 1 8Zm15 0A8 8 0 1 1 0 8a8 8 0 0 1 16 0ZM6.646 6.24v.07H5.375v-.064c0-1.213.879-2.402 2.637-2.402 1.582 0 2.613.949 2.613 2.215 0 1.002-.6 1.667-1.287 2.43l-.096.107-1.974 2.22v.077h3.498V12H5.422v-.832l2.97-3.293c.434-.475.903-1.008.903-1.705 0-.744-.557-1.236-1.313-1.236-.843 0-1.336.615-1.336 1.306Z"
+                      />
+                    </svg>
+                    <li class="caracteristica"><b>Classe:</b> Secundária</li>
+                  </div>
+                  <div class="list-item">
+                    <svg
+                      xmlns="http://www.w3.org/2000/svg"
+                      width="16"
+                      height="16"
+                      fill="currentColor"
+                      class="bi bi-exclamation-circle"
+                      viewBox="0 0 16 16"
+                    >
+                      <path
+                        d="M8 15A7 7 0 1 1 8 1a7 7 0 0 1 0 14zm0 1A8 8 0 1 0 8 0a8 8 0 0 0 0 16z"
+                      />
+                      <path
+                        d="M7.002 11a1 1 0 1 1 2 0 1 1 0 0 1-2 0zM7.1 4.995a.905.905 0 1 1 1.8 0l-.35 3.507a.552.552 0 0 1-1.1 0L7.1 4.995z"
+                      />
+                    </svg>
+                    <li class="caracteristica">
+                      <b>Conservação:</b> Pouco preocupante
+                    </li>
+                  </div>
+                  <div class="list-item">
+                    <svg
+                      xmlns="http://www.w3.org/2000/svg"
+                      width="16"
+                      height="16"
+                      fill="currentColor"
+                      class="bi bi-tree"
+                      viewBox="0 0 16 16"
+                    >
+                      <path
+                        d="M8.416.223a.5.5 0 0 0-.832 0l-3 4.5A.5.5 0 0 0 5 5.5h.098L3.076 8.735A.5.5 0 0 0 3.5 9.5h.191l-1.638 3.276a.5.5 0 0 0 .447.724H7V16h2v-2.5h4.5a.5.5 0 0 0 .447-.724L12.31 9.5h.191a.5.5 0 0 0 .424-.765L10.902 5.5H11a.5.5 0 0 0 .416-.777l-3-4.5zM6.437 4.758A.5.5 0 0 0 6 4.5h-.066L8 1.401 10.066 4.5H10a.5.5 0 0 0-.424.765L11.598 8.5H11.5a.5.5 0 0 0-.447.724L12.69 12.5H3.309l1.638-3.276A.5.5 0 0 0 4.5 8.5h-.098l2.022-3.235a.5.5 0 0 0 .013-.507z"
+                      />
+                    </svg>
+                    <li class="caracteristica"><b>Coleta:</b> MAI - AGO</li>
+                  </div>
+
+                  <a
+                    class="list-item"
+                    href="https://www.google.com.br/maps/place/23%C2%B023'17.2%22S+47%C2%B037'09.5%22W/@-23.3880778,-47.6197675,166m/data=!3m1!1e3!4m5!3m4!1s0x0:0x7aa73cbc8955f778!8m2!3d-23.3881!4d-47.6193"
+                    target="_blank"
+                  >
+                    <svg
+                      xmlns="http://www.w3.org/2000/svg"
+                      width="16"
+                      height="16"
+                      fill="currentColor"
+                      class="bi bi-geo-alt-fill"
+                      viewBox="0 0 16 16"
+                    >
+                      <path
+                        d="M8 16s6-5.686 6-10A6 6 0 0 0 2 6c0 4.314 6 10 6 10zm0-7a3 3 0 1 1 0-6 3 3 0 0 1 0 6z"
+                      />
+                    </svg>
+                    <li class="caracteristica"><b>Matriz:</b> M 2082</li>
+                  </a>
+                </ul>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section class="acordion-especie container-xl">
+        <h2 class="subtitle">Caracteristicas Gerais</h2>
+        <div class="accordion" id="accordionExample">
+          <div class="accordion-item">
+            <h2 class="accordion-header" id="headingOne">
+              <button
+                class="accordion-button"
+                type="button"
+                data-bs-toggle="collapse"
+                data-bs-target="#collapseOne"
+                aria-expanded="true"
+                aria-controls="collapseOne"
+              >
+                Coleta de sementes
+              </button>
+            </h2>
+            <div
+              id="collapseOne"
+              class="accordion-collapse collapse show"
+              aria-labelledby="headingOne"
+              data-bs-parent="#accordionExample"
+            >
+              <div class="accordion-body">
+                <div class="coleta">
+                  <ul class="coleta-list">
+                    <li><b>- Tipo de Semente:</b> Ortodoxa</li>
+                    <li>
+                      <b>- Síndrome de Dispersão de Semente:</b> Anemocórica
+                    </li>
+                    <li>
+                      - As sementes podem ser plantadas diretamente em
+                      sementeiras (canteiros) sem tratamento, ou podem ser
+                      preparadas deixando-as 2h em água gelada antes do plantio.
+                    </li>
+                    <li>
+                      - Após germinação (4-8 semanas) devem ser repicadas para
+                      recipientes individuais
+                    </li>
+                    <li>- Possui preferência por substrato argiloso</li>
+                    <li>- Emergência entre 8-74 dias</li>
+                    <li>
+                      - Taxa de germinação variável e irregular entre 20% e 85%
+                    </li>
+                    <li>
+                      - As mudas atingem porte adequado para plantio após 6
+                      meses da semeadura.
+                    </li>
+                    <li>
+                      - Não possui preferência de tipo de solo, se adaptando bem
+                      a solos secos e úmidos, argilosos ou arenosos
+                    </li>
+                  </ul>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="accordion-item">
+            <h2 class="accordion-header" id="headingTwo">
+              <button
+                class="accordion-button collapsed"
+                type="button"
+                data-bs-toggle="collapse"
+                data-bs-target="#collapseTwo"
+                aria-expanded="false"
+                aria-controls="collapseTwo"
+              >
+                Semeadura e Produção de Mudas
+              </button>
+            </h2>
+            <div
+              id="collapseTwo"
+              class="accordion-collapse collapse"
+              aria-labelledby="headingTwo"
+              data-bs-parent="#accordionExample"
+            >
+              <div class="accordion-body">
+                <ul class="semeadura-list">
+                  <li><b>- Tempo mínimo em viveiro:</b> 4 meses</li>
+                  <li>
+                    - Colher os frutos diretamente das árvores quando mudam da
+                    coloração verde para marro-claro
+                  </li>
+                  <li>- Submetê-los a secagem à sombra</li>
+                  <li>
+                    - Depois de secos recomenda-se agitação dos frutos para
+                    liberação total das sementes.
+                  </li>
+                  <li>
+                    - A viabilidade da semente é variável, havendo relatos de
+                    redução de viabilidade em 50% após 1 mês de coleta e de
+                    45,5% após 22 meses.
+                  </li>
+                  <li>- Período reprodutivos: Maio-agosto.</li>
+                </ul>
+              </div>
+            </div>
+          </div>
+          <div class="accordion-item">
+            <h2 class="accordion-header" id="headingThree">
+              <button
+                class="accordion-button collapsed"
+                type="button"
+                data-bs-toggle="collapse"
+                data-bs-target="#collapseThree"
+                aria-expanded="false"
+                aria-controls="collapseThree"
+              >
+                Morfológicas
+              </button>
+            </h2>
+            <div
+              id="collapseThree"
+              class="accordion-collapse collapse"
+              aria-labelledby="headingThree"
+              data-bs-parent="#accordionExample"
+            >
+              <div class="accordion-body">
+                <ul class="morfologica-list">
+                  <li>- Médio a grande porte - Pode chegar a 30m.</li>
+                  <li>
+                    - Tronco tortuoso, nodoso, forma fuste curtos e retos.
+                  </li>
+                  <li>
+                    - Apresenta folhas simples, alternadas, dísticas, com
+                    estípulas serreadas, áspera na face e tomentosa no dorso.
+                  </li>
+                  <li>
+                    - Madeira moderadamente pesada, resistente e extremamente
+                    flexível.
+                  </li>
+                  <li>
+                    - Utilizada em confecção de móveis curvados, ripas e
+                    molduras.
+                  </li>
+                </ul>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+    </main>
+    <footer
+      class="footer-bg footer py-3"
+      style="background-color: var(--greenBg)"
+      id="links-importantes"
+    >
+      <div class="container">
+        <h4 class="subtitle">Links Importantes</h4>
+        <div class="row row-cols-1 row-cols-sm-2 row-cols-md-5 py-5 border-top">
+          <!-- <div class="col mb-3"></div> -->
+
+          <div class="col mb-3">
+            <h5>Mapa do Site</h5>
+            <ul class="nav flex-column">
+              <li class="nav-item mb-2">
+                <a href="#" class="nav-link p-0 text-muted">Home</a>
+              </li>
+              <li class="nav-item mb-2">
+                <a href="./catalogo.html" class="nav-link p-0 text-muted"
+                  >Catálogo</a
+                >
+              </li>
+              <li class="nav-item mb-2">
+                <a href="#saiba-mais" class="nav-link p-0 text-muted"
+                  >Saiba mais</a
+                >
+              </li>
+              <li class="nav-item mb-2">
+                <a href="#viveiros" class="nav-link p-0 text-muted">Viveiros</a>
+              </li>
+              <!-- <li class="nav-item mb-2">
+                <a href="#" class="nav-link p-0 text-muted">About</a>
+              </li> -->
+            </ul>
+          </div>
+
+          <div class="col mb-3">
+            <h5>Parceiros</h5>
+            <ul class="nav flex-column">
+              <li class="nav-item mb-2">
+                <a
+                  href="https://www.gov.br/cnen/pt-br"
+                  target="_blank"
+                  class="nav-link p-0 text-muted"
+                  >CNEN</a
+                >
+              </li>
+              <li class="nav-item mb-2">
+                <a
+                  href="https://www.marinha.mil.br/ctmsp/"
+                  target="_blank"
+                  class="nav-link p-0 text-muted"
+                  >CTMSP</a
+                >
+              </li>
+              <li class="nav-item mb-2">
+                <a
+                  target="_blank"
+                  href="https://ipero.sp.gov.br/"
+                  class="nav-link p-0 text-muted"
+                  >Prefeitura de Iperó</a
+                >
+              </li>
+              <li class="nav-item mb-2">
+                <a
+                  href="https://www.icmbio.gov.br/flonaipanema/"
+                  target="_blank"
+                  class="nav-link p-0 text-muted"
+                  >ICMBio</a
+                >
+              </li>
+              <!-- <li class="nav-item mb-2">
+                <a href="#" class="nav-link p-0 text-muted">FAQs</a>
+              </li>
+              <li class="nav-item mb-2">
+                <a href="#" class="nav-link p-0 text-muted">About</a>
+              </li> -->
+            </ul>
+          </div>
+          <div class="col mb-3"></div>
+          <div class="col mb-3"></div>
+          <div
+            class="col mb-3 d-flex flex-column align-items-center justify-content-between text-center"
+          >
+            <div class="d-flex">
+              <a
+                href="https://www.amazul.mar.mil.br/rmb_atuacao_projetos"
+                target="_blank"
+                class="d-flex align-items-center justify-content-center link-dark text-decoration-none"
+                ><img
+                  src="https://www.amazul.mar.mil.br/sites/www.marinha.mil.br.amazul/files/logo.png"
+                  alt="Logo GI"
+                  width="90"
+                />
+              </a>
+              <a
+                href="https://www.amazul.mar.mil.br/"
+                target="_blank"
+                class="d-flex align-items-center justify-content-center link-dark text-decoration-none"
+                ><img src="../assets/img/logo5S.png" alt="Logo GI" width="90" />
+              </a>
+            </div>
+
+            <p class="text-muted m-1">
+              Este repositório é uma iniciativa da Gerência de Implantação da
+              Amazul no RMB.
+            </p>
+          </div>
+        </div>
+      </div>
+      <div class="container-fluid">
+        <p class="footer-p text-muted">
+          Copyright © 2022 RLC Arruda - Gerência de Implantação Amazul - Todos
+          os direitos reservados
+        </p>
+      </div>
+    </footer>
+
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-kenU1KFdBIe4zVF0s0G1M5b4hcpxyD9F7jL+jjXkk+Q2h455rYXK/7HAuoJl+0I4"
+      crossorigin="anonymous"
+    ></script>
+  </body>
+</html>
