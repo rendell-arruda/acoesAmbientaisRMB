@@ -53,6 +53,11 @@ html {
   box-sizing: border-box;
 }
 
+.gallery-bg{
+  background-color: var(--greenBg);
+  color: var(--grayBglight);
+}
+
 @media (max-width: 768px) {
   .title {
     font-size: 1.125rem;
