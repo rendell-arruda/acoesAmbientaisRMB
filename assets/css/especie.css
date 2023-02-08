@@ -32,6 +32,7 @@
 .caractIniciais-list {
   padding: 12px 20px;
   margin: 0;
+  color: var(--greenText);
 }
 .list-item {
   display: flex;
