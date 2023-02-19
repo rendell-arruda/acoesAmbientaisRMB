@@ -1,70 +1,124 @@
 <!DOCTYPE html>
 <html lang="pt-br">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./assets/css/style.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,400;0,700;1,100&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-rbsA2VBKQhggwzxH7pPCaAqO46MgnOM80zW1RWuH61DGLwZJEdK2Kadq2F9CUG65"
+      crossorigin="anonymous"
+    />
 
-<head>
-  <meta charset="UTF-8" />
-  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <link rel="stylesheet" href="./assets/css/style.css" />
-  <link rel="preconnect" href="https://fonts.googleapis.com" />
-  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-  <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,400;0,700;1,100&display=swap" rel="stylesheet" />
-  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-rbsA2VBKQhggwzxH7pPCaAqO46MgnOM80zW1RWuH61DGLwZJEdK2Kadq2F9CUG65" crossorigin="anonymous" />
+    <script
+      src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
+      integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js"
+      integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js"
+      integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy"
+      crossorigin="anonymous"
+    ></script>
 
-  <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
-  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
-  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy" crossorigin="anonymous"></script>
+    <link
+      rel="shortcut icon"
+      href="../assets/img/faviconRMB.png"
+      type="image/x-icon"
+    />
 
-  <link rel="shortcut icon" href="../assets/img/faviconRMB.png" type="image/x-icon" />
+    <title>Avistei no RMB</title>
+  </head>
 
-  <title>Avistei no RMB</title>
-</head>
-
-<body>
-  <header class="header">
-    <div class="menu-container">
-      <nav class="navbar navbar-expand-lg navbar-dark" style="background-color: var(--greenBg)">
-        <div class="container-fluid">
-          <a class="navbar-brand" href="./index.html">
-            Ações Ambientais | RMB</a>
-          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
-            <span class="navbar-toggler-icon"></span>
-          </button>
-          <div class="collapse navbar-collapse" id="navbarNavDropdown">
-            <ul class="navbar-nav">
-              <li class="nav-item">
-                <a class="nav-link active" aria-current="page" href="#"></a>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link" href="./catalogo.html">Catálogo</a>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link" href="#saiba-mais">Saiba Mais</a>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link" href="#links-importantes">Links Importantes</a>
-              </li>
-              <li class="nav-item dropdown">
-                <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false" id="viveiros">
-                  Viveiros
-                </a>
-                <ul class="dropdown-menu">
-                  <li>
-                    <a class="dropdown-item" href="https://drive.google.com/file/d/1irjRqrJmyrBm6qNMXhOOkfTBrJt-ohsZ/view?usp=sharing" target="_blanck">Sementeira - Casa P4</a>
-                  </li>
-                  <li>
-                    <a class="dropdown-item" href="https://drive.google.com/file/d/1EOQozKbjeocNsIi3K3YNf4Z0fnuzQhts/view?usp=sharing" target="_blanck">Rustificação - Casa P6</a>
-                  </li>
-                </ul>
-              </li>
-            </ul>
+  <body>
+    <header class="header">
+      <div class="menu-container">
+        <nav
+          class="navbar navbar-expand-lg navbar-dark"
+          style="background-color: var(--greenBg)"
+        >
+          <div class="container-fluid">
+            <a class="navbar-brand" href="./index.html">
+              Ações Ambientais | RMB</a
+            >
+            <button
+              class="navbar-toggler"
+              type="button"
+              data-bs-toggle="collapse"
+              data-bs-target="#navbarNavDropdown"
+              aria-controls="navbarNavDropdown"
+              aria-expanded="false"
+              aria-label="Toggle navigation"
+            >
+              <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNavDropdown">
+              <ul class="navbar-nav">
+                <li class="nav-item">
+                  <a class="nav-link active" aria-current="page" href="#"></a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="./catalogo.html">Catálogo</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="#saiba-mais">Saiba Mais</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="#links-importantes"
+                    >Links Importantes</a
+                  >
+                </li>
+                <li class="nav-item dropdown">
+                  <a
+                    class="nav-link dropdown-toggle"
+                    href="#"
+                    role="button"
+                    data-bs-toggle="dropdown"
+                    aria-expanded="false"
+                    id="viveiros"
+                  >
+                    Viveiros
+                  </a>
+                  <ul class="dropdown-menu">
+                    <li>
+                      <a
+                        class="dropdown-item"
+                        href="https://drive.google.com/file/d/1irjRqrJmyrBm6qNMXhOOkfTBrJt-ohsZ/view?usp=sharing"
+                        target="_blanck"
+                        >Sementeira - Casa P4</a
+                      >
+                    </li>
+                    <li>
+                      <a
+                        class="dropdown-item"
+                        href="https://drive.google.com/file/d/1EOQozKbjeocNsIi3K3YNf4Z0fnuzQhts/view?usp=sharing"
+                        target="_blanck"
+                        >Rustificação - Casa P6</a
+                      >
+                    </li>
+                  </ul>
+                </li>
+              </ul>
+            </div>
           </div>
-        </div>
-      </nav>
-    </div>
-  </header>
-  <main>
-
+        </nav>
+      </div>
+    </header>
+    <main>
+      <!-- 
     <section class="container-large">
       <div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
         <ol class="carousel-indicators">
@@ -109,97 +163,255 @@
     <section class="container-fluid py-3">
       <h1 class="title text-center">Avistei no RMB</h1>
       <div class="row row-cols-1 row-cols-sm-2 row-cols-md-5 py-2 border-top"></div>
-    </section>
+    </section> -->
 
-    <section class="customCards container-xl  py-2" id="">
-      <h3 class="subtitle text-center">Section em construção🚧</h3>
-      <div class="row row-cols-1 row-cols-sm-2 row-cols-md-5 py-2 border-top"></div>
-      <p class="secundaryText catalogo-subtitle text-center">
-        xxxxxxxxx xxx
-      </p>
+      <section class="customCards container-xl py-2" id="">
+        <h3 class="subtitle text-center">Section em construção🚧</h3>
+        <div
+          class="row row-cols-1 row-cols-sm-2 row-cols-md-5 py-2 border-top"
+        ></div>
+        <p class="secundaryText catalogo-subtitle text-center">xxxxxxxxx xxx</p>
+      </section>
 
-    </section>
+      <section
+        class="container-xl py-5 d-flex flex-wrap align-items-center justify-content-between"
+      >
+        <!-- <div class="card">
+          <div class="textBox py-4">
+            <p class="text head">Ethereum</p>
+            <span>Cryptocurrency</span>
+            <p class="text price">1.654,34€</p>
+          </div>
+        </div> -->
 
+        <div class="cardN">
+          <div class="temporary_text">
+            <img
+              src="./assets/img/avistei/fimfimMacho.jpg"
+              alt="Fim fim Macho"
+              height="220"
+            />
+          </div>
+          <div class="card_content">
+            <span class="card_title">Fim fim Macho</span>
+            <span class="card_subtitle"
+              >Thsi is a subtitle of this page. Let us see how it looks on the
+              Web.</span
+            >
+            <p class="card_description">
+              Lorem ipsum dolor, sit amet expedita exercitationem recusandae aut
+              dolor tempora aperiam itaque possimus at, cupiditate earum, quae
+              repudiandae aspernatur? Labore minus soluta consequatur placeat.
+            </p>
+          </div>
+        </div>
+        <div class="cardN">
+          <div class="temporary_text">
+            <img
+              src="./assets/img/avistei/cuica.jpg"
+              alt="Fim fim Macho"
+              height="220"
+            />
+          </div>
+          <div class="card_content">
+            <span class="card_title">Cuica</span>
+            <span class="card_subtitle"
+              >Thsi is a subtitle of this page. Let us see how it looks on the
+              Web.</span
+            >
+            <p class="card_description">
+              Lorem ipsum dolor, sit amet expedita exercitationem recusandae aut
+              dolor tempora aperiam itaque possimus at, cupiditate earum, quae
+              repudiandae aspernatur? Labore minus soluta consequatur placeat.
+            </p>
+          </div>
+        </div>
+        <div class="cardN">
+          <div class="temporary_text">
+            <img
+              src="./assets/img/avistei/tamandua.jpg"
+              alt="Fim fim Macho"
+              height="220"
+            />
+          </div>
+          <div class="card_content">
+            <span class="card_title">Tamandua Bandeira</span>
+            <span class="card_subtitle"
+              >Thsi is a subtitle of this page. Let us see how it looks on the
+              Web.</span
+            >
+            <p class="card_description">
+              Lorem ipsum dolor, sit amet expedita exercitationem recusandae aut
+              dolor tempora aperiam itaque possimus at, cupiditate earum, quae
+              repudiandae aspernatur? Labore minus soluta consequatur placeat.
+            </p>
+          </div>
+        </div>
+        <div class="cardN">
+          <div class="temporary_text">
+            <img
+              src="./assets/img/avistei/saiAzul.jpg"
+              alt="Fim fim Macho"
+              height="220"
+            />
+          </div>
+          <div class="card_content">
+            <span class="card_title">Saí Azul</span>
+            <span class="card_subtitle"
+              >Thsi is a subtitle of this page. Let us see how it looks on the
+              Web.</span
+            >
+            <p class="card_description">
+              Lorem ipsum dolor, sit amet expedita exercitationem recusandae aut
+              dolor tempora aperiam itaque possimus at, cupiditate earum, quae
+              repudiandae aspernatur? Labore minus soluta consequatur placeat.
+            </p>
+          </div>
+        </div>
+        <div class="cardN">
+          <div class="temporary_text">
+            <img
+              src="./assets/img/avistei/slider3.png"
+              alt="Fim fim Macho"
+              height="220"
+            />
+          </div>
+          <div class="card_content">
+            <span class="card_title">Mocho</span>
+            <span class="card_subtitle"
+              >Thsi is a subtitle of this page. Let us see how it looks on the
+              Web.</span
+            >
+            <p class="card_description">
+              Lorem ipsum dolor, sit amet expedita exercitationem recusandae aut
+              dolor tempora aperiam itaque possimus at, cupiditate earum, quae
+              repudiandae aspernatur? Labore minus soluta consequatur placeat.
+            </p>
+          </div>
+        </div>
+      </section>
+    </main>
 
+    <footer
+      class="footer-bg footer py-4"
+      style="background-color: var(--greenBg)"
+      id="links-importantes"
+    >
+      <div class="container">
+        <h4 class="subtitle">Links Importantes</h4>
+        <div class="row row-cols-1 row-cols-sm-2 row-cols-md-5 py-5 border-top">
+          <!-- <div class="col mb-3"></div> -->
 
-
-  </main>
-
-  <footer class="footer-bg footer py-4" style="background-color: var(--greenBg)" id="links-importantes">
-    <div class="container">
-      <h4 class="subtitle">Links Importantes</h4>
-      <div class="row row-cols-1 row-cols-sm-2 row-cols-md-5 py-5 border-top">
-        <!-- <div class="col mb-3"></div> -->
-
-        <div class="col mb-3">
-          <h5>Mapa do Site</h5>
-          <ul class="nav flex-column">
-            <li class="nav-item mb-2">
-              <a href="#" class="nav-link p-0 text-muted">Home</a>
-            </li>
-            <li class="nav-item mb-2">
-              <a href="./catalogo.html" class="nav-link p-0 text-muted">Catálogo</a>
-            </li>
-            <li class="nav-item mb-2">
-              <a href="#saiba-mais" class="nav-link p-0 text-muted">Saiba mais</a>
-            </li>
-            <li class="nav-item mb-2">
-              <a href="#viveiros" class="nav-link p-0 text-muted">Viveiros</a>
-            </li>
-            <!-- <li class="nav-item mb-2">
+          <div class="col mb-3">
+            <h5>Mapa do Site</h5>
+            <ul class="nav flex-column">
+              <li class="nav-item mb-2">
+                <a href="#" class="nav-link p-0 text-muted">Home</a>
+              </li>
+              <li class="nav-item mb-2">
+                <a href="./catalogo.html" class="nav-link p-0 text-muted"
+                  >Catálogo</a
+                >
+              </li>
+              <li class="nav-item mb-2">
+                <a href="#saiba-mais" class="nav-link p-0 text-muted"
+                  >Saiba mais</a
+                >
+              </li>
+              <li class="nav-item mb-2">
+                <a href="#viveiros" class="nav-link p-0 text-muted">Viveiros</a>
+              </li>
+              <!-- <li class="nav-item mb-2">
                 <a href="#" class="nav-link p-0 text-muted">About</a>
               </li> -->
-          </ul>
-        </div>
+            </ul>
+          </div>
 
-        <div class="col mb-3">
-          <h5>Parceiros</h5>
-          <ul class="nav flex-column">
-            <li class="nav-item mb-2">
-              <a href="https://www.gov.br/cnen/pt-br" target="_blank" class="nav-link p-0 text-muted">CNEN</a>
-            </li>
-            <li class="nav-item mb-2">
-              <a href="https://www.marinha.mil.br/ctmsp/" target="_blank" class="nav-link p-0 text-muted">CTMSP</a>
-            </li>
-            <li class="nav-item mb-2">
-              <a target="_blank" href="https://ipero.sp.gov.br/" class="nav-link p-0 text-muted">Prefeitura de Iperó</a>
-            </li>
-            <li class="nav-item mb-2">
-              <a href="https://www.icmbio.gov.br/flonaipanema/" target="_blank" class="nav-link p-0 text-muted">ICMBio</a>
-            </li>
-            <!-- <li class="nav-item mb-2">
+          <div class="col mb-3">
+            <h5>Parceiros</h5>
+            <ul class="nav flex-column">
+              <li class="nav-item mb-2">
+                <a
+                  href="https://www.gov.br/cnen/pt-br"
+                  target="_blank"
+                  class="nav-link p-0 text-muted"
+                  >CNEN</a
+                >
+              </li>
+              <li class="nav-item mb-2">
+                <a
+                  href="https://www.marinha.mil.br/ctmsp/"
+                  target="_blank"
+                  class="nav-link p-0 text-muted"
+                  >CTMSP</a
+                >
+              </li>
+              <li class="nav-item mb-2">
+                <a
+                  target="_blank"
+                  href="https://ipero.sp.gov.br/"
+                  class="nav-link p-0 text-muted"
+                  >Prefeitura de Iperó</a
+                >
+              </li>
+              <li class="nav-item mb-2">
+                <a
+                  href="https://www.icmbio.gov.br/flonaipanema/"
+                  target="_blank"
+                  class="nav-link p-0 text-muted"
+                  >ICMBio</a
+                >
+              </li>
+              <!-- <li class="nav-item mb-2">
                 <a href="#" class="nav-link p-0 text-muted">FAQs</a>
               </li>
               <li class="nav-item mb-2">
                 <a href="#" class="nav-link p-0 text-muted">About</a>
               </li> -->
-          </ul>
-        </div>
-        <div class="col mb-3"></div>
-        <div class="col mb-3"></div>
-        <div class="col mb-3 d-flex flex-column align-items-center justify-content-between text-center">
-          <div class="d-flex">
-            <a href="https://www.amazul.mar.mil.br/rmb_atuacao_projetos" target="_blank" class="d-flex align-items-center justify-content-center link-dark text-decoration-none"><img src="./assets/img/logoAmazul.png" alt="Logo Amazul" width="100" />
-            </a>
-            <a href="https://www.amazul.mar.mil.br/" target="_blank" class="d-flex align-items-center justify-content-center link-dark text-decoration-none"><img src="../assets/img/logo5S.png" alt="Logo GI" width="90" />
-            </a>
+            </ul>
           </div>
+          <div class="col mb-3"></div>
+          <div class="col mb-3"></div>
+          <div
+            class="col mb-3 d-flex flex-column align-items-center justify-content-between text-center"
+          >
+            <div class="d-flex">
+              <a
+                href="https://www.amazul.mar.mil.br/rmb_atuacao_projetos"
+                target="_blank"
+                class="d-flex align-items-center justify-content-center link-dark text-decoration-none"
+                ><img
+                  src="./assets/img/logoAmazul.png"
+                  alt="Logo Amazul"
+                  width="100"
+                />
+              </a>
+              <a
+                href="https://www.amazul.mar.mil.br/"
+                target="_blank"
+                class="d-flex align-items-center justify-content-center link-dark text-decoration-none"
+                ><img src="../assets/img/logo5S.png" alt="Logo GI" width="90" />
+              </a>
+            </div>
 
-          <p class="text-muted m-1">
-            Este repositório é uma iniciativa da Gerência de Implantação da
-            <b> Amazul </b>no RMB.
-          </p>
+            <p class="text-muted m-1">
+              Este repositório é uma iniciativa da Gerência de Implantação da
+              <b> Amazul </b>no RMB.
+            </p>
+          </div>
         </div>
       </div>
-    </div>
-    <div class="container-fluid">
-      <p class="footer-p text-muted">
-        Copyright © 2022 RLC Arruda - Gerência de Implantação Amazul - Todos
-        os direitos reservados
-      </p>
-    </div>
-  </footer>
-  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-kenU1KFdBIe4zVF0s0G1M5b4hcpxyD9F7jL+jjXkk+Q2h455rYXK/7HAuoJl+0I4" crossorigin="anonymous"></script>
-</body>
-
+      <div class="container-fluid">
+        <p class="footer-p text-muted">
+          Copyright © 2022 RLC Arruda - Gerência de Implantação Amazul - Todos
+          os direitos reservados
+        </p>
+      </div>
+    </footer>
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-kenU1KFdBIe4zVF0s0G1M5b4hcpxyD9F7jL+jjXkk+Q2h455rYXK/7HAuoJl+0I4"
+      crossorigin="anonymous"
+    ></script>
+  </body>
 </html>
