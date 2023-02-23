@@ -6,20 +6,26 @@
   min-height: 400px;
 }
 
+.card.card-intro {
+  display: none;
+}
+
 .img-intro {
   display: none;
 }
 
 @media (max-width: 768px) {
-  .img-intro {
+  .card.card-intro {
     border-radius: 10px;
     display: block;
   }
+
   .intro-conteudo {
     text-align: center;
     flex-direction: column;
     gap: 20px;
   }
+
   .introBlog {
     background: none;
     background-color: var(--grayBglight);
