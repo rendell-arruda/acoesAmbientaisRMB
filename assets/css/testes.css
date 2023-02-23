@@ -1,7 +1,7 @@
 .cardN {
   position: relative;
-  width: 250px;
-  height: 350px;
+  width: 260px;
+  height: 360px;
   color: #2e2d31;
   background: #131313;
   overflow: hidden;
@@ -9,14 +9,14 @@
   box-shadow: rgba(0, 0, 0, 0.15) 1.95px 1.95px 2.6px;
 }
 
-.temporary_text {
+/* .temporary_text {
   font-weight: bold;
   font-size: 24px;
   /* padding: 6px 12px; */
-  color: #f8f8f8;
-}
+/* color: #f8f8f8; */
+/* } */
 
-.card_title {
+*/ .card_title {
   font-weight: bold;
 }
 
