@@ -30,7 +30,7 @@
   border-top-left-radius: 20px;
   /* edit here to change the height of the content box */
   transform: translateY(150px);
-  transition: transform 0.25s;
+  transition: transform 0.45s;
 }
 
 .card_content::before {
