@@ -5,3 +5,7 @@
 .footer-p {
   font-size: 12px;
 }
+
+footer .nav-link:hover {
+  color: whitesmoke;
+}
