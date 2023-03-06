@@ -8,11 +8,8 @@
 
 .depoimento-conteudo {
   padding: 15px;
-  /* max-width: 32ch; */
-  font-family: 'Merriweather', serif;
-  font-style: italic;
+  font-family: serif !important;
   font-weight: normal;
-  margin-bottom: 1.125rem;
   position: relative;
 }
 
@@ -25,12 +22,13 @@
 
 .depoimento::before {
   content: '“';
-  left: -15px;
+  left: -5px;
   top: -40px;
 }
 
 .depoimento::after {
   content: '”';
+  right: 10px;
 }
 
 @media (max-width: 500px) {
