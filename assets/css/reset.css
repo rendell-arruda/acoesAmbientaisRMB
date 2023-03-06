@@ -3,7 +3,7 @@
    License: none (public domain)
 */
 
-html,
+/* html,
 body,
 div,
 span,
@@ -90,9 +90,9 @@ video {
   font-size: 100%;
   font: inherit;
   vertical-align: baseline;
-}
+} */
 /* HTML5 display-role reset for older browsers */
-article,
+/* article,
 aside,
 details,
 figcaption,
@@ -104,15 +104,15 @@ menu,
 nav,
 section {
   display: block;
-}
-body {
+} */
+/* body {
   line-height: 1;
-}
-ol,
+} */
+/* ol,
 ul {
   list-style: none;
-}
-blockquote,
+} */
+/* blockquote,
 q {
   quotes: none;
 }
@@ -126,4 +126,4 @@ q:after {
 table {
   border-collapse: collapse;
   border-spacing: 0;
-}
+} */

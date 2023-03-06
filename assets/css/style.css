@@ -2,11 +2,12 @@
 @import './global.css';
 @import './header.css';
 @import './intro.css';
-@import './inform.css';
+@import './catalogoPage.css';
 @import './especie.css';
 @import './porfolio.css';
 @import './blockquote.css';
 @import './saiba-mais.css';
 @import './contato.css';
 @import './footer.css';
-@import './testes.css';
+@import './avistei.css';
+@import './components.css';

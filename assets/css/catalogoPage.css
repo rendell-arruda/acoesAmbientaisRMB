@@ -1,0 +1,15 @@
+.card {
+  background-size: cover;
+}
+
+.inform-cards {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 6px;
+}
+
+@media (max-width: 767px) {
+  .card img {
+    border-radius: 5px;
+  }
+}
